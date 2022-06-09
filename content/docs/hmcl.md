@@ -9,7 +9,7 @@ weight: 3
 # bookSearchExclude: false
 ---
 
-# HMCL
+# HMCL 与游戏本体安装
 
 [HMCL](https://hmcl.huangyuhui.net/) 是一款优秀的 Minecraft 第三方启动器. 它可以自动下载、安装、配置不同的 Minecraft 版本与插件. 我们推荐使用它来管理 Minecraft. 
 
