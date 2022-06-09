@@ -14,3 +14,6 @@ weight: 1
 > Hello World!
 
 欢迎来到天堂村 Minecraft!
+
+![Hello World](/images/hello-world/hello-world.gif)
+
