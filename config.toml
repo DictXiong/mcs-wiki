@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = '天堂村 Minecraft Wiki'
+theme = "hugo-book"
+enableGitInfo = true
