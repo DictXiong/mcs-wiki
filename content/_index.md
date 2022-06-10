@@ -16,7 +16,7 @@ weight: 1
 
 欢迎来到天堂村Minecraft！
 
-![Hello World](/images/hello-world/hello-world.gif)
+![Hello World]({{< ref "/" >}}images/hello-world/hello-world.gif)
 
  **欢迎为Wiki做出贡献！** 你可以：
 

@@ -17,5 +17,5 @@ weight: 1
 
 在Java安装目录下 `bin` 文件夹中找到java.exe（或者javac.exe，取决于HMCL中配置使用哪个；如果不确定，二者都配置）。右键 – 属性 – 兼容性 – 更改高DPI设置 – 替代高DPI缩放行为，更改为“系统（增强）”。如下图所示。
 
-![高分屏设置](/images/other-config/image-20220610001450317.png)
+![高分屏设置]({{< ref "/" >}}images/other-config/image-20220610001450317.png)
 
