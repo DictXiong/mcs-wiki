@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>游戏安装 on 天堂村 Minecraft Wiki</title><link>https://dictxiong.github.io/mcs-wiki/docs/install/</link><description>Recent content in 游戏安装 on 天堂村 Minecraft Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://dictxiong.github.io/mcs-wiki/docs/install/index.xml" rel="self" type="application/rss+xml"/><item><title>1. Java下载与配置</title><link>https://dictxiong.github.io/mcs-wiki/docs/install/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dictxiong.github.io/mcs-wiki/docs/install/java/</guid><description>Java下载与配置 # Java是运行Minecraft及各种启动器的基础。较新的Minecraft版本要求使用较新的Java，以下是一个大致对应列表：
+Minecraft版本 Java版本 旧版本 Java 7或Java 8 1.16 Java 15 1.17 Java 16 1.18 Java 17 你可能会发现，旧版本的Java与新版本的外观、安装、使用都略有不同。这是Oracle JDK与Open JDK的区别，不要太在意。
+因为我们不需要使用Java语言做开发，所以仅仅需要JRE（Java Runtime Environment）。但是实际可能会下载JDK（Java Development Kit），它会带有一份JRE。
+以下仅介绍为较新版本Minecraft下载配置Java的过程.
+在官网（http://jdk.java.net/）找到合适的Java（JDK）版本。下图是下载Windows版本的例子。
+下载完成后，无需安装，解压后便能使用。请将压缩包解压到你认为合适的地方。
+将 Java/bin 文件夹加入到 PATH 系统变量中。例如，你把JDK解压到了 D:\Program Files\jdk-17.0.1，其所包含的 bin 文件夹之地址为 D:\Program Files\jdk-17.0.1\bin。右键此电脑 – 高级系统设置 – 高级 – 环境变量，在下方“系统变量”中找到PATH（Path，不区分大小写）并双击，在弹出窗口中点击新建，填写 D:\Program Files\jdk-17.0.1\bin，点击确定关闭。
+测试：新建一个命令终端（cmd或者powershell），直接输入 java.exe 并回车。如果并未报“未找到命令”之错，表明配置成功。</description></item><item><title>2. HMCL与游戏本体安装</title><link>https://dictxiong.github.io/mcs-wiki/docs/install/hmcl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dictxiong.github.io/mcs-wiki/docs/install/hmcl/</guid><description>HMCL与游戏本体安装 # HMCL是一款优秀的Minecraft第三方启动器。它可以自动下载、安装、配置不同的Minecraft版本与插件。我们推荐使用它来管理Minecraft。
+以下将介绍下载HMCL并使用它安装Minecraft的流程。在此之前，请确保电脑上安装了可用的Java，并已加入系统PATH环境变量中。
+在官方页面下载HMCL启动器：https://hmcl.huangyuhui.net/。HMCL启动器无需安装，双击即可运行，请把它放到你认为合适的地方。
+双击打开HMCL。
+HMCL将要求你登录账户。如果你是第一次使用HMCL，此处可以先选择离线用户，用户名随便取。
+左侧点击版本列表，然后点击安装新游戏版本。
+点击选择合适的版本。
+在以下界面中，给它取一个喜欢的名字。建议一并安装最新版本的Fabric。
+点击安装，等待安装完成。如果安装过程中出现网络错误，可以在主界面 – 设置 – 下载中手动指定别的下载源，或者更改下方的代理设置（如果你知道这是什么）。
+安装完成后，在主界面左边点击进入刚刚安装的游戏。在此处可查看并调整游戏设置：
+“Java路径”可手动指定使用哪一个Java。较新的游戏版本对Java版本有较高的要求，此处可以指定使用不同的Java。 “游戏内存”可以保持自动；如果调整，建议调整为4096 MB以上。 “游戏窗口分辨率”可以调整初始窗口大小。 启动游戏，看看能否正常进入主界面。</description></item><item><title>3. 配置LittleSkin外置登录</title><link>https://dictxiong.github.io/mcs-wiki/docs/install/littleskin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dictxiong.github.io/mcs-wiki/docs/install/littleskin/</guid><description> 配置LittleSkin外置登录 # 我们知道：如果购买了正版，在启动器中正版登录之后，就可以加入启用了在线验证的服务器，并在服务器中显示你的皮肤和披风。
+外置登录则是用第三方的登录认证来取代官方的认证。使用外置登录，需要指定特定的第三方服务器，随后则可以加入启用了在线认证并同样设置了外置登录的服务器，并在服务器中自动显示你的皮肤和披风。
+下面介绍外置登录站LittleSkin的使用方法。
+打开官网https://mcskin.littleservice.cn/，注册新账号，或者直接使用正版账号登录（不推荐）。 进入其用户中心，创建角色。角色的用户名将是你在游戏中的用户名。一个账户可以有多个角色。 为你的角色调整皮肤和披风。 配置HMCL外置登录。在LittleSkin用户中心 – 仪表盘页面下方有启动器配置教程。请使用此教程配置HMCL. 测试：使用配置好的启动器启动游戏，进入任意单机存档，查看自己的角色名、皮肤、皮肤是否正常。</description></item></channel></rss>
