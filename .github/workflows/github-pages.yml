@@ -24,8 +24,8 @@ jobs:
       - name: set the webroot
         run: sed -i "s?https://mcwiki.beardic.cn/?https://dictxiong.github.io/mcs-wiki/?" config.toml
 
-      - name: append custom header
-        run: cp layouts/partials/docs/inject/head.html themes/hugo-book/layouts/partials/docs/inject/head.html
+      # - name: append custom header
+      #   run: cp layouts/partials/docs/inject/head.html themes/hugo-book/layouts/partials/docs/inject/head.html
 
       - name: Build
         run: hugo --minify
