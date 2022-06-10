@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "主页"
 type: docs
 weight: 1
 # bookFlatSection: false
@@ -10,17 +10,16 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# 天堂村 Minecraft Wiki
+# 天堂村Minecraft Wiki
 
 > Hello World!
 
-欢迎来到天堂村 Minecraft!
+欢迎来到天堂村Minecraft！
 
 ![Hello World](/images/hello-world/hello-world.gif)
 
-建议阅读流程: 
+ **欢迎为Wiki做出贡献！** 你可以：
 
-1. [Java 安装配置]({{< ref "/docs/java" >}} "Java")
-2. [HMCL 与游戏本体安装配置]({{< ref "/docs/hmcl" >}} "HMCL")
-3. [LittleSkin外置登录]({{< ref "/docs/littleskin" >}} "littleskin")
-4. [其它配置]({{< ref "/docs/others" >}} "others")
+1. 在[github](https://github.com/DictXiong/mcs-wiki)上提PR或者issue。
+2. 以[Markdown](https://www.runoob.com/markdown/md-tutorial.html)或其它格式编写文件，然后发给我。
+
