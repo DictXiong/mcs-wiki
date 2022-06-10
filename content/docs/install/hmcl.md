@@ -15,7 +15,7 @@ weight: 3
 
 以下将介绍下载HMCL并使用它安装Minecraft的流程。**在此之前，请确保电脑上安装了可用的Java，并已加入系统PATH环境变量中**。
 
-1. 在官方页面下载HMCL启动器：https://hmcl.huangyuhui.net/。HMCL启动器无需安装，双击即可运行，请把它放到你认为合适的地方。
+1. 在官方页面下载HMCL启动器：[https://hmcl.huangyuhui.net/](https://hmcl.huangyuhui.net/)。HMCL启动器无需安装，双击即可运行，请把它放到你认为合适的地方。
 
 2. 双击打开HMCL。
 
